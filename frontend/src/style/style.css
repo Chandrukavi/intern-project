@@ -1,0 +1,189 @@
+.MainContainer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.Main {
+  width: 70%;
+  padding: 0 5%;
+}
+
+.Container-Form {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.Container-Form form {
+  margin-bottom: 20px;
+}
+.Container-Form form .Head-SignUp {
+  font-size: 90px;
+  font-weight: 700;
+}
+.Container-Form form .Form-Type {
+  display: flex;
+  flex-direction: column;
+}
+.Container-Form form .Form-Type .Label-Type {
+  margin-top: 15px;
+  font-size: 40px;
+  font-weight: 500;
+}
+.Container-Form form .Form-Type .input-Type {
+  width: 50%;
+  padding: 1%;
+  border: 2px solid black;
+  border-radius: 8px;
+}
+.Container-Form form .Type-btn {
+  padding: 0.5% 2%;
+  border-radius: 8px;
+  font-size: 25px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+.Container-Form form .Type-btn:hover {
+  background-color: #f0f4f8;
+}
+.Container-Form form .SignUp-Footer {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.Container-Form form .SignUp-Footer .Footer-P {
+  font-size: 25px;
+  font-weight: 500;
+  color: #2563eb;
+  margin-left: 20px;
+}
+.Container-Form form .SignUp-Footer .Btn-Login {
+  padding: 0.5% 2%;
+  border-radius: 8px;
+  font-size: 25px;
+  font-weight: 600;
+  margin-top: 20px;
+  width: 20%;
+  text-align: center;
+}
+.Container-Form form .SignUp-Footer .Btn-Login:hover {
+  background-color: #f0f4f8;
+}
+
+.Login-Container .Login-Head {
+  font-size: 65px;
+  font-weight: 700;
+}
+.Login-Container form .Login-Form {
+  display: flex;
+  flex-direction: column;
+}
+.Login-Container form .Login-Form label {
+  margin-top: 15px;
+  font-size: 40px;
+  font-weight: 500;
+}
+.Login-Container form .Login-Form input {
+  width: 50%;
+  padding: 1%;
+  border: 2px solid black;
+  border-radius: 8px;
+}
+.Login-Container form button {
+  padding: 0.5% 2%;
+  border-radius: 8px;
+  font-size: 25px;
+  font-weight: 600;
+  margin-top: 50px;
+}
+.Login-Container form button:hover {
+  background-color: #f0f4f8;
+}
+
+.payment-form form .Payment-head {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 500;
+}
+.payment-form form .Card-number {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.payment-form form .Card-number label {
+  margin-top: 15px;
+  font-size: 35px;
+  font-weight: 500;
+}
+.payment-form form .Card-number input {
+  width: 50%;
+  padding: 1%;
+  border: 2px solid black;
+  border-radius: 8px;
+}
+.payment-form form button {
+  padding: 0.5% 2%;
+  border-radius: 8px;
+  font-size: 25px;
+  font-weight: 700;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.payment-form form button:hover {
+  background-color: #f0f4f8;
+}
+.payment-form .popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* semi-transparent background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+.payment-form .popup .popup-content {
+  background-color: #fff;
+  border: 2px solid #2563eb;
+  border-radius: 8px;
+  padding: 50px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.payment-form .popup .popup-content h2 {
+  color: #2563eb;
+  margin-bottom: 10px;
+}
+.payment-form .popup .popup-content p {
+  color: #333;
+  font-size: 16px;
+}
+
+.Student-Form .Student-head {
+  font-size: 50px;
+  font-weight: 500;
+}
+.Student-Form form .Form-Type {
+  margin-top: 50px;
+}
+.Student-Form form .Form-Type label {
+  font-size: 25px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+.Student-Form form .Form-Type input {
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 5px;
+}
+.Student-Form form button {
+  padding: 0.5% 2%;
+  border-radius: 8px;
+  font-size: 25px;
+  font-weight: 700;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.Student-Form form button:hover {
+  background-color: #f0f4f8;
+}/*# sourceMappingURL=style.css.map */
